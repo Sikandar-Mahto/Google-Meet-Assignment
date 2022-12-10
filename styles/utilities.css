@@ -1,0 +1,22 @@
+:root{
+    --bg-color:#fff;
+    --text-color: #111;
+    --fontfamily: 'Roboto', sans-serif;;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fontfamily);
+    background-color: var(--bg-color);
+}
+
+h1,h2,h3,h4,h5,h6,p,span,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+}
